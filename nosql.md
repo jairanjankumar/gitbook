@@ -19,3 +19,9 @@ Nice explanation : [https://www.youtube.com/watch?v=mRvkikVuojU](https://www.you
 **4) In-memory key-value** stores are NoSQL databases optimized for read-heavy application workloads or compute-intensive workloads (such as a recommendation engine). In-memory caching improves application performance by storing critical pieces of data in memory for low-latency access.
 
 * Semistructured also known as self-describing structure, Semistructured examples : JSON or XML format.
+
+
+|      | RethinkDB | MongoDB       | CouchDB                            | Ref     |
+| ---- | --------- | ------------- | ---------------------------------- | ------- |
+| Join | Supported | Not Supported | Only supported in predeclared view | Page 34 |
+|      |           |               |                                    |         |
