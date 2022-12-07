@@ -21,6 +21,14 @@ Nice explanation : [https://www.youtube.com/watch?v=mRvkikVuojU](https://www.you
 * Semistructured also known as self-describing structure, Semistructured examples : JSON or XML format.
 
 
+| Columnar | Document                                                                                                                                                                                           | Graph | key-value |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | --------- |
+|          | Arguments in favour of document data model are schema flexibility, better performance due to locality, and that for some applications it is closer to the data structures used by the application. |       |           |
+|          |                                                                                                                                                                                                    |       |           |
+
+
+
+
 |      | RethinkDB | MongoDB       | CouchDB                            | Ref     |
 | ---- | --------- | ------------- | ---------------------------------- | ------- |
 | Join | Supported | Not Supported | Only supported in predeclared view | Page 34 |
